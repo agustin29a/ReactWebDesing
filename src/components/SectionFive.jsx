@@ -8,6 +8,10 @@ const SectionFive = () => {
     color: white;
     justify-content: center;
     display: flex;
+
+    @media (max-width: 768px) {
+      height: 5%;
+    }
   `;
   return (
     <div className={style}>
